@@ -6,7 +6,7 @@ This project presents a simple framework to retrieve images similar to a query i
 - Train a CNN model (**A**) on a set of labeled images with Triplet Loss (I used [this one)](https://www.tensorflow.org/addons/api_docs/python/tfa/losses/TripletSemiHardLoss).
 - Use the trained CNN model (**A**) to extract features from the validation set.
 - Train a kNN model (**B**) on these extracted features with k set to the number of neighbors wanted.
-- Grab an image (**I**) from the validation set and extract its features using the same CNN model (A).
+- Grab an image (**I**) from the validation set and extract its features using the same CNN model (**A**).
 - Use the same kNN model (**B**) to calculate the nearest neighbors of **I**.
 
 
