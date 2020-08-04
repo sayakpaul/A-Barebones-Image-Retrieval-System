@@ -45,3 +45,23 @@ While using the BiT model I used what is referred to as the BiT-HyperRule. BiT m
 <div align="center"><img src="https://i.ibb.co/w6G3Wp5/image.png"></img></div>
 
 The improvements with BiT is quite prominent.
+
+## A few observations
+
+Consider the following results (although they come from the model fine-tuned from VGG16):
+
+<div align="center"><img src="https://i.ibb.co/9TfFYvD/image.png"></img></div>
+
+We see that tulips and roses are being treated similarly and so are dandelions and daisies. If we see there is indeed an overlap in between their shapes and textures and this is likely why this is happening. When dealing with problems where very few samples are available per class it's good to have very rich representative samples per class which are distinct and indicative of a given class.
+
+## References:
+- Moindrot, Olivier. “Triplet Loss and Online Triplet Mining in TensorFlow.” Olivier Moindrot Blog, 19 Mar. 2018, https://omoindrot.github.io/triplet-loss.
+- Chapter 4 code of the Practical DL Book (O'Reilly). https://github.com/PracticalDL/Practical-Deep-Learning-Book/tree/master/code/chapter-4.
+
+## Different model weights
+
+Available [here](https://github.com/sayakpaul/A-Barebones-Image-Retrieval-System/releases/tag/v0.1.0). 
+
+## Feedback
+
+Via GitHub issues. 
