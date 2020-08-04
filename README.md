@@ -9,7 +9,9 @@ This project presents a simple framework to retrieve images similar to a query i
 - Grab an image (I) from the validation set and extract its features using the same CNN model (A).
 - Use the same kNN model (B) to calculate the nearest neighbors of I.
 
-I used the Flowers dataset for experiments. I tried the above approach to a scenario where I had only 184 examples from the Flowers dataset and it worked well.
+<div align="center"><img src="https://i.ibb.co/vVqtXt9/Screen-Shot-2020-08-04-at-11-01-14-PM.png"></img></div>
+
+I used the **Flowers dataset** for experiments. I tried the above approach to a scenario where I had only 184 examples from the Flowers dataset and it worked well.
 
 Here's a sample result:
 <div align="center"><img src="https://i.ibb.co/ZVrLT3b/image.png"></img></div>
