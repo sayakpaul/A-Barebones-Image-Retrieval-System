@@ -10,7 +10,7 @@ This project presents a simple framework to retrieve images similar to a query i
 - Use the same kNN model (**B**) to calculate the nearest neighbors of **I**.
 
 
-<div align="center"><img src="https://i.ibb.co/s9QhG6Y/Screen-Shot-2020-08-04-at-11-05-42-PM.png"></img></div>
+<div align="center"><img src="https://i.ibb.co/s9QhG6Y/Screen-Shot-2020-08-04-at-11-05-42-PM.png" width="500"></img></div>
 
 
 I used the **Flowers dataset** for experiments. I tried the above approach to a scenario where I had only 184 examples from the Flowers dataset and it worked well.
