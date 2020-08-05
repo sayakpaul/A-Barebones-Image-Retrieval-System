@@ -46,7 +46,8 @@ While using the BiT model I used what is referred to as the BiT-HyperRule. BiT m
 
 <div align="center"><img src="https://i.ibb.co/w6G3Wp5/image.png"></img></div>
 
-The improvements with BiT is quite prominent.
+
+The improvements with BiT are quite prominent. This indeed suggests that bigger models like BiT can be label-efficient. 
 
 ## A few observations
 
