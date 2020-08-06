@@ -57,9 +57,12 @@ Consider the following results (although they come from the model fine-tuned fro
 
 We see that tulips and roses are being treated similarly and so are dandelions and daisies. If we see there is indeed an overlap in between their shapes and textures and this is likely why this is happening. When dealing with problems where very few samples are available per class it's good to have very rich representative samples per class which are distinct and indicative of a given class.
 
-## References:
+## References
+
 - Moindrot, Olivier. “Triplet Loss and Online Triplet Mining in TensorFlow.” Olivier Moindrot Blog, 19 Mar. 2018, https://omoindrot.github.io/triplet-loss.
 - Chapter 4 code of the Practical DL Book (O'Reilly). https://github.com/PracticalDL/Practical-Deep-Learning-Book/tree/master/code/chapter-4.
+- Kolesnikov, Alexander, et al. “Big Transfer (BiT): General Visual Representation Learning.” ArXiv:1912.11370 [Cs], May 2020. arXiv.org, http://arxiv.org/abs/1912.11370.
+- BigTransfer (BiT): State-of-the-Art Transfer Learning for Computer Vision. https://blog.tensorflow.org/2020/05/bigtransfer-bit-state-of-art-transfer-learning-computer-vision.html.
 
 ## Different model weights
 
