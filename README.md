@@ -26,7 +26,7 @@ I fine-tuned pre-trained models for the task of minimizing the Triplet Loss. I e
 - ResNet50
 - BigTransfer (also referred to as BiT) which is essentially a ResNet but pre-trained on a larger dataset with additional modifications
 
-While using the first three models I used the following Transformers' inspired callback -
+While training with the first three models I used the following learning rate callback (from the Transformers paper) -
 
 <div align="center"><img src="https://i.ibb.co/kSFRtGb/image.png"></img></div>
 
