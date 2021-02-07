@@ -30,7 +30,7 @@ While training with the first three models I used the following learning rate ca
 
 <div align="center"><img src="https://i.ibb.co/kSFRtGb/image.png"></img></div>
 
-I referred to the code of this callback from [here](https://nbviewer.jupyter.org/github/GoogleCloudPlatform/training-data-analyst/blob/master/courses/fast-and-lean-data-science/keras_flowers_gputputpupod_tf2.1.ipynb).
+Code of this callback is referred from [here](https://nbviewer.jupyter.org/github/GoogleCloudPlatform/training-data-analyst/blob/master/courses/fast-and-lean-data-science/keras_flowers_gputputpupod_tf2.1.ipynb).
 
 While using the BiT model I used what is referred to as the BiT-HyperRule. BiT models come in [different variants](https://tfhub.dev/google/collections/bit/1), I used this variant - `m-r50x1` . Refer to [this blog post](https://blog.tensorflow.org/2020/05/bigtransfer-bit-state-of-art-transfer-learning-computer-vision.html) to know more about BiT and this rule in general.
 
