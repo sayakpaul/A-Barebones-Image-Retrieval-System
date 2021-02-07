@@ -20,7 +20,7 @@ Here's a sample result:
 
 ## Training specifics
 
-I fine-tuned pre-trained models for the task of minimizing the Triplet Loss. I experimented with the following models (pre-trained on ImageNet):
+I fine-tuned pre-trained models for minimizing the Triplet Loss. I experimented with the following pre-trained models:
 - VGG16
 - MobileNetV2
 - ResNet50
@@ -32,7 +32,7 @@ While training with the first three models I used the following learning rate ca
 
 Code of this callback is referred from [here](https://nbviewer.jupyter.org/github/GoogleCloudPlatform/training-data-analyst/blob/master/courses/fast-and-lean-data-science/keras_flowers_gputputpupod_tf2.1.ipynb).
 
-While using the BiT model I used what is referred to as the BiT-HyperRule. BiT models come in [different variants](https://tfhub.dev/google/collections/bit/1), I used this variant - `m-r50x1` . Refer to [this blog post](https://blog.tensorflow.org/2020/05/bigtransfer-bit-state-of-art-transfer-learning-computer-vision.html) to know more about BiT and this rule in general.
+While fine-tuning the BiT model I used what is referred to as the BiT-HyperRule. BiT models come in [different variants](https://tfhub.dev/google/collections/bit/1), I used this variant - `m-r50x1` . Refer to [this blog post](https://blog.tensorflow.org/2020/05/bigtransfer-bit-state-of-art-transfer-learning-computer-vision.html) to know more about BiT and BiT-HyperRule.
 
 ## Visualization of the embedding space of a limited validation set
 
@@ -47,7 +47,7 @@ While using the BiT model I used what is referred to as the BiT-HyperRule. BiT m
 <div align="center"><img src="https://i.ibb.co/w6G3Wp5/image.png"></img></div>
 
 
-The improvements with BiT are quite prominent. This indeed suggests that bigger models like BiT can be label-efficient. 
+The improvements with BiT are quite prominent. This indeed suggests that bigger models like BiT can be _sample-efficient_. 
 
 ## A few observations
 
