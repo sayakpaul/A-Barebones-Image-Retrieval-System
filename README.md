@@ -24,7 +24,7 @@ I fine-tuned pre-trained models for the task of minimizing the Triplet Loss. I e
 - VGG16
 - MobileNetV2
 - ResNet50
-- BigTransfer (also referred to as BiT) which is essentially a ResNet50 but pre-trained on a larger dataset
+- BigTransfer (also referred to as BiT) which is essentially a ResNet but pre-trained on a larger dataset with additional modifications
 
 While using the first three models I used the following Transformers' inspired callback -
 
